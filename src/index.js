@@ -8,7 +8,9 @@ import reportWebVitals from './reportWebVitals';
 export const GEOCODE_API_KEY="";
 
 //TODO 2 enter your function app url here
-export const FUNCTION_APP_URL="http://localhost:7071/api/getHospitalsList";
+//export const FUNCTION_APP_URL="http://localhost:7071/api/getHospitalsList";
+export const FUNCTION_APP_URL="https://fa-cloud-user7.azurewebsites.net/api/getHospitalsList?code=%0A";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
